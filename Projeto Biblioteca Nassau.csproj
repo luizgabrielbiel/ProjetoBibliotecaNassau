@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33DB89D7-A935-4425-AC86-16CE83B4AEA1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projeto_Biblioteca_Nassau</RootNamespace>
+    <AssemblyName>Projeto Biblioteca Nassau</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\gabri\Downloads\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon_JanelaPrincipal.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5E4F81332104672DBE39702D54DE972A924CB1B1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Projeto Biblioteca Nassau_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlteraDados1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlteraDados1.Designer.cs">
+      <DependentUpon>AlteraDados1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlteraDados2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlteraDados2.Designer.cs">
+      <DependentUpon>AlteraDados2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlterarLivros1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlterarLivros1.Designer.cs">
+      <DependentUpon>AlterarLivros1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alterarLivros2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alterarLivros2.Designer.cs">
+      <DependentUpon>alterarLivros2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bancodedados.cs" />
+    <Compile Include="CadastraDevolução.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastraDevolução.Designer.cs">
+      <DependentUpon>CadastraDevolução.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastraEmprestimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastraEmprestimo.Designer.cs">
+      <DependentUpon>CadastraEmprestimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarAlunos.Designer.cs">
+      <DependentUpon>CadastrarAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroLivro.Designer.cs">
+      <DependentUpon>CadastroLivro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultaCadastroAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaCadastroAluno.Designer.cs">
+      <DependentUpon>consultaCadastroAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarEmprestimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarEmprestimo.Designer.cs">
+      <DependentUpon>ConsultarEmprestimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarLivro.Designer.cs">
+      <DependentUpon>ConsultarLivro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcluirAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcluirAluno.Designer.cs">
+      <DependentUpon>ExcluirAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcluirEmprestimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcluirEmprestimo.Designer.cs">
+      <DependentUpon>ExcluirEmprestimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcluirLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcluirLivro.Designer.cs">
+      <DependentUpon>ExcluirLivro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicial.Designer.cs">
+      <DependentUpon>Inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AlteraDados1.resx">
+      <DependentUpon>AlteraDados1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlteraDados2.resx">
+      <DependentUpon>AlteraDados2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlterarLivros1.resx">
+      <DependentUpon>AlterarLivros1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alterarLivros2.resx">
+      <DependentUpon>alterarLivros2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastraDevolução.resx">
+      <DependentUpon>CadastraDevolução.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastraEmprestimo.resx">
+      <DependentUpon>CadastraEmprestimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarAlunos.resx">
+      <DependentUpon>CadastrarAlunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroLivro.resx">
+      <DependentUpon>CadastroLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaCadastroAluno.resx">
+      <DependentUpon>consultaCadastroAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarEmprestimo.resx">
+      <DependentUpon>ConsultarEmprestimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarLivro.resx">
+      <DependentUpon>ConsultarLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirAluno.resx">
+      <DependentUpon>ExcluirAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirEmprestimo.resx">
+      <DependentUpon>ExcluirEmprestimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirLivro.resx">
+      <DependentUpon>ExcluirLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicial.resx">
+      <DependentUpon>Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Projeto Biblioteca Nassau_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bdBiblioteca.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bdBiblioteca_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>bdBiblioteca.mdf</DependentUpon>
+    </Content>
+    <Content Include="icon_JanelaPrincipal.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

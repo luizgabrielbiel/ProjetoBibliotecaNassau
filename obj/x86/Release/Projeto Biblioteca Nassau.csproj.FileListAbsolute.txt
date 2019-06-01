@@ -1,0 +1,30 @@
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\bin\x86\Release\bdBiblioteca.mdf
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\bin\x86\Release\bdBiblioteca_log.ldf
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\bin\x86\Release\Projeto Biblioteca Nassau.exe.config
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\bin\x86\Release\Projeto Biblioteca Nassau.exe.manifest
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\bin\x86\Release\Projeto Biblioteca Nassau.application
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\bin\x86\Release\Projeto Biblioteca Nassau.exe
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\bin\x86\Release\Projeto Biblioteca Nassau.pdb
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.AlteraDados1.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.AlteraDados2.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.AlterarLivros1.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.alterarLivros2.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.CadastraDevolução.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.CadastraEmprestimo.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.CadastrarAlunos.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.CadastroLivro.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.consultaCadastroAluno.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.ConsultarEmprestimo.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.ConsultarLivro.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.ExcluirAluno.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.ExcluirEmprestimo.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.ExcluirLivro.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.Inicial.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto_Biblioteca_Nassau.Properties.Resources.resources
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto Biblioteca Nassau.csproj.GenerateResource.cache
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto Biblioteca Nassau.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto Biblioteca Nassau.exe.manifest
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto Biblioteca Nassau.application
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto Biblioteca Nassau.exe
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto Biblioteca Nassau.pdb
+C:\Users\gabri\source\repos\Projeto Biblioteca Nassau\Projeto Biblioteca Nassau\obj\x86\Release\Projeto Biblioteca Nassau.csprojAssemblyReference.cache
